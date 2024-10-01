@@ -1,0 +1,56 @@
+.downloadMessage{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+.downloadMessage span{
+    flex: 1;
+}
+.downloadMessage img{
+    height: 80%;
+    cursor: pointer;
+   
+}
+
+@media (max-width:800px){
+    .downloadMessage{
+        display: none;
+    }
+    
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text{
+    color: black
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.loadMoreButton{
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.card{
+    min-width: 400px;
+}
+.parent-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
